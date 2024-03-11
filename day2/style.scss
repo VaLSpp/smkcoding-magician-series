@@ -1,0 +1,85 @@
+$myColor: sandybrown;
+$secondColor: brown;
+$baseSize : 4px;
+
+@mixin flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 80px;
+
+    .content-left {
+        width: 450px;
+        .title {
+            font-size: 48px;
+            span {
+                color: $myColor;
+            }
+        }
+        p {
+            width: 400px;
+        }
+        .order-button {
+            @include flex-box();
+            font-size: 18px;
+            gap: 8px;
+            padding: ($baseSize *  3) ($baseSize * 6);
+            border-radius: ($baseSize * 10);
+
+            .icon {
+                @include flex-box();
+                background-color: $myColor;
+                padding: $baseSize;
+                border-radius: 100%;
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+
+    
+
+    .content-right {
+        .hero-img-container {
+            @include flex-box();
+            background: $secondColor;
+            border-radius: 100%;
+            width: 400px;
+            height: 400px;
+            position: relative;
+
+            img {
+                width: 300px;
+                height: auto;
+            }
+
+            .glassy-card{
+                width: max-content;
+                padding: $baseSize ($baseSize * 6);
+                background-color: rgba($color: #fff, $alpha: 1.0);
+                border-radius: ($baseSize * 10);
+                
+
+                position: absolute;
+                top: ($baseSize * 5);
+                left: 0;
+
+                .glassy-border {
+                    background: #fff;
+                    padding: $baseSize ($baseSize * 6);
+                    border-radius: ($baseSize * 10);
+                }
+            }
+        }
+    }
+}
+

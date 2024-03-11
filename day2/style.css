@@ -1,0 +1,69 @@
+body {
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 80px;
+}
+.container .content-left {
+  width: 450px;
+}
+.container .content-left .title {
+  font-size: 48px;
+}
+.container .content-left .title span {
+  color: sandybrown;
+}
+.container .content-left p {
+  width: 400px;
+}
+.container .content-left .order-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 40px;
+}
+.container .content-left .order-button .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: sandybrown;
+  padding: 4px;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+}
+.container .content-right .hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: brown;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.container .content-right .hero-img-container img {
+  width: 300px;
+  height: auto;
+}
+.container .content-right .hero-img-container .glassy-card {
+  width: -moz-max-content;
+  width: max-content;
+  padding: 4px 24px;
+  background-color: white;
+  border-radius: 40px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+.container .content-right .hero-img-container .glassy-card .glassy-border {
+  background: #fff;
+  padding: 4px 24px;
+  border-radius: 40px;
+}/*# sourceMappingURL=style.css.map */

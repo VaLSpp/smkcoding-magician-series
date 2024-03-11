@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build:prod": "NODE_ENV=production tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

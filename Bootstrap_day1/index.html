@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Bootstrap SMK CODING</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <!-- Akar Icons -->
+  <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+  <!--  Product Section -->
+  <section id="popular-product" class="position-relative"
+    style="height: 300px; background-color: #f6ebde; padding: 0 7rem;">
+    <!-- Element Kopi -->
+    <img src="../assets/images/bg-hero-2.png" alt="Decorative Coffee Beans Element" class="position-absolute start-0"
+      style="top: -75px; max-width: 450px;">
+
+    <h2 class="fw-semibold fs-3 py-3">
+      Populer
+      <span class="border-bottom border-3" style="--bs-border-color: #fe983a;">Now</span>
+    </h2>
+
+    <!-- Card Container -->
+    <div class="position-relative">
+      <!-- Background -->
+      <div class="position-absolute w-100"
+        style="height: 330px; border-radius: 40px; background-color: #f7d7a9; top: 80px;"></div>
+        
+      <!-- Content -->
+      <div class="px-5 d-flex flex-sm-column flex-lg-row align-items-center justify-content-between">
+        <!-- Card 1 -->
+        <article class="card shadow p-3 border-5"
+          style="width: 18rem; border-width: 20px; --bs-card-border-color: rgba(255, 227, 187, 0.2); backdrop-filter: blur(24px);">
+          <div class="position-relative d-block">
+            <!-- Rating -->
+            <div class="position-absolute d-flex align-items-center gap-1 bg-light rounded-pill"
+              style="top: 7px; left: 7px; padding: 0.2rem 0.8rem;">
+              <span class="fw-bold" style="font-size: 14px;">4.8</span>
+              <img src="../assets/icons/gold-star.svg" alt="Stars" style="width: 16px; height: 16px;">
+            </div>
+            <img src="../assets/images/product-1.png" alt="Product's 1 Picture"
+              class="w-100 rounded-3 object-fit-cover">
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between mt-3 align-items-center">
+              <h5 class="fw-semibold">Vanilla Latte</h5>
+              <h5 class="fw-semibold">21 K</h5>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <div class="d-flex gap-3 align-items-center">
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Hot</span>
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Cold</span>
+              </div>
+              <button class="btn btn-warning rounded-circle border-0 d-flex align-items-center justify-content-center"
+                style="--bs-btn-bg: #ff902a; --bs-btn-hover-bg: #fcaa5d; padding: 0.8em !important; height: 42px !important; width: 42px !important ;">
+                <i class="ai-cart text-light"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="card shadow p-3 border-5"
+        style="width: 18rem; border-width: 20px; --bs-card-border-color: rgba(255, 227, 187, 0.2); backdrop-filter: blur(24px);">
+          <div class="position-relative d-block">
+            <!-- Rating -->
+            <div class="position-absolute d-flex align-items-center gap-1 bg-light rounded-pill"
+              style="top: 7px; left: 7px; padding: 0.2rem 0.8rem;">
+              <span class="fw-bold" style="font-size: 14px;">4.8</span>
+              <img src="../assets/icons/gold-star.svg" alt="Stars" style="width: 16px; height: 16px;">
+            </div>
+            <img src="../assets/images/product-2.png" alt="Product's 1 Picture"
+              class="w-100 rounded-3 object-fit-cover">
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between mt-3 align-items-center">
+              <h5 class="fw-semibold">Espresso</h5>
+              <h5 class="fw-semibold">12 K</h5>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <div class="d-flex gap-3 align-items-center">
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Hot</span>
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Cold</span>
+              </div>
+              <button class="btn btn-warning rounded-circle border-0 d-flex align-items-center justify-content-center"
+                style="--bs-btn-bg: #ff902a; --bs-btn-hover-bg: #fcaa5d; padding: 0.8em !important; height: 42px !important; width: 42px !important ;">
+                <i class="ai-cart text-light"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article class="card shadow p-3 border-5"
+        style="width: 18rem; border-width: 20px; --bs-card-border-color: rgba(255, 227, 187, 0.2); backdrop-filter: blur(24px);">
+          <div class="position-relative d-block">
+            <!-- Rating Badge -->
+            <div class="position-absolute d-flex align-items-center gap-1 bg-light rounded-pill"
+              style="top: 7px; left: 7px; padding: 0.2rem 0.8rem;">
+              <span class="fw-bold" style="font-size: 14px;">4.8</span>
+              <img src="../assets/icons/gold-star.svg" alt="Stars" style="width: 16px; height: 16px;">
+            </div>
+            <img src="../assets/images/product-3.png" alt="Product's 1 Picture"
+              class="w-100 rounded-3 object-fit-cover">
+          </div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between mt-3 align-items-center">
+              <h5 class="fw-semibold">Hazelnut Latte</h5>
+              <h5 class="fw-semibold">23 K</h5>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <div class="d-flex gap-3 align-items-center">
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Hot</span>
+                <span class="btn btn-outline-warning border-2 fw-semibold"
+                  style="padding: 0.2rem 0.8rem; font-size: 14px; --bs-btn-border-color: #ffd89f; --bs-btn-color: #ffd89f; --bs-btn-hover-bg: transparent; --bs-btn-hover-border-color: #ff902a; --bs-btn-hover-color: #ff902a;">Cold</span>
+              </div>
+              <button class="btn btn-warning rounded-circle border-0 d-flex align-items-center justify-content-center"
+                style="--bs-btn-bg: #ff902a; --bs-btn-hover-bg: #fcaa5d; padding: 0.8em !important; height: 42px !important; width: 42px !important ;">
+                <i class="ai-cart text-light"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section -->
+  <section id="service" style="padding: 0 7rem; margin: 300px 0 50px 0;">
+    <h2 class="fw-semibold fs-3 py-3">
+      How to use delivery
+      <span class="border-bottom border-3" style="--bs-border-color: #fe983a;">service</span>
+    </h2>
+
+    <div class="d-flex align-items-center justify-content-between mt-5 px-5">
+      <article class="d-flex flex-column align-items-center justify-content-center">
+        <img src="../assets/images/service-1.png" alt="Service 1" width="120">
+        <h3 class="fw-semibold mt-3 fs-5">Choose Your Coffee</h3>
+        <p>There are 20+ coffee for you</p>
+      </article>
+      <article class="d-flex flex-column align-items-center justify-content-center">
+        <img src="../assets/images/service-2.png" alt="Service 1" width="120">
+        <h3 class="fw-semibold mt-3 fs-5">We Delivery It to You</h3>
+        <p>Choose delivery service</p>
+      </article>
+      <article class="d-flex flex-column align-items-center justify-content-center">
+        <img src="../assets/images/service-3.png" alt="Service 1" width="120">
+        <h3 class="fw-semibold mt-3 fs-5">Enjoy Your Coffee</h3>
+        <p>There are 20+ coffee for you</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
